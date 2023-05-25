@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(bg1.png) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+/* HORNÍ LIŠTA */
+#HomeNav {
+    position: static;
+	background: rgba(0,0,0,0.5);
+}
+
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 35px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .2s;
+}
+.navbar ul li a.active, .navbar ul li a:hover{
+	background-image: linear-gradient(19deg, #CC5500 0%, red 100%);
+	border-radius: 6px;
+}
+/* HORNÍ LIŠTA */
+
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: rgb(255, 0, 0);
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffffff;
+	background-image: linear-gradient(19deg, #CC5500 0%, red 100%);
+	outline: none;
+	cursor: pointer;
+	border: 0px solid #CC5500;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background-image: linear-gradient(19deg, #CC5500 0%, red 100%);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(19deg, #CC5500 0%, red 100%);
+    color: white;
+    padding: 5px;
+    text-align: center;
+	z-index: 1000;
+}
+
+.img-fluid {
+	position: absolute;
+	left: -15%;
+	top: 1650px;
+
+	width: 780px;
+  }
+  
+  .rectangle {
+	background-image: linear-gradient(19deg, #CC5500 0%, red 100%);
+	position: absolute;
+	right: -25%;
+	top: 1650px;
+	height: 500px;
+	width: 450px;
+	text-align: center;
+  }
+  .rectangle p {
+	font-size: 80px;
+	color: #333;
+	line-height: 1;
+	text-align: center;
+	position: relative;
+	top: 25px;
+  }
+
+  .rectangle h1 {
+	font-size: 20px;
+
+	color: white;
+	line-height: 1;
+	text-align: center;
+	position: relative;
+	top: 20px;
+  }
+
+  .btn {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	border: 1px solid #fff;
+	border-radius: 0;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+	border-radius: 25px;
+	position: relative;
+	top: 160px;
+  }
+  
+
+ /* KARTIČKY NEJNOVĚJŠÍ PROJEKTY */
+  .card {
+	border: none;
+	border-radius: 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 1100px;
+	background-image: linear-gradient(19deg, #CC5500 0%, red 100%);
+  }
+  
+  .card-img-top {
+	height: auto;
+  }
+  
+  .card-title {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  .card-text {
+	font-size: 14px;
+	margin-bottom: 15px;
+  }
+  
+  .ahoj-transparent {
+	background-color: transparent;
+	color: #fff;
+	border-color: transparent;
+	border-radius: 1;
+  }
+  
+  .btn-transparent:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	color: #fff;
+	border-color: transparent;
+  }
+  
+  .btn-transparent:focus {
+	background-color: rgba(255, 255, 255, 0.3);
+	color: #fff;
+	border-color: transparent;
+	box-shadow: none;
+  }
+  
+  .card-body h5 {
+	font-size: 30px;
+	color: #333;
+	line-height: 1;
+	text-align:top;
+	position: relative;
+	top: 15px;
+  }
+
+  .card-body p {
+	font-size: 20px;
+	color: white;
+	line-height: 1;
+	text-align: top;
+	position: relative;
+	top: 15px;
+  }
+ /* KARTIČKY NEJNOVĚJŠÍ PROJEKTY */
+ .display-4 {
+	color: #333;
+	background: none; /* Žádné pozadí */
+	font-family: "Helvetica", Arial, sans-serif; /* Změňte písmo podle potřeby */
+	font-size: 70px; /* Velikost písma */
+	font-weight: bold; /* Tučné písmo */
+	text-align: center; /* Zarovnání na střed */
+	position: relative;
+	top: 950px;
+  }
