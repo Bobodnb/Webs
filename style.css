@@ -96,7 +96,7 @@
 	position: absolute;
 	left: -15%;
 	top: 1650px;
-
+	height: 500px;
 	width: 780px;
   }
   
@@ -106,7 +106,7 @@
 	right: -25%;
 	top: 1650px;
 	height: 500px;
-	width: 450px;
+	width: 400px;
 	text-align: center;
   }
   .rectangle p {
